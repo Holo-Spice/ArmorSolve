@@ -1,4 +1,17 @@
 # SolveTrajectory
+<img src="image/rm_vision.svg" alt="rm_vision" width="200" height="200">
+
+该项目为 [rm_vision](https://github.com/chenjunnn/rm_vision) 适配的弹道解算模块
+
+### License
+
+The source code is released under a [MIT license](rm_auto_aim/LICENSE).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Author: Chen Jun
+
+# SolveTrajectory
 
 自瞄装甲板解算电控端代码(哨兵版)
 包含弹道模型及其解算
@@ -9,7 +22,7 @@
 装甲板id顺序，以四块装甲板为例，逆时针编号
 | ![](/image/1.png) |
 | :---------------: |
-|       装甲板编号        |
+|    装甲板编号     |
 
 参数
 - param pitch:rad  传出pitch
@@ -21,7 +34,4 @@
 传出的aim坐标用于视觉端进行可视化击打点坐标
 
 # ArmorSolve.cpp为另一版解算以及火控代码
-此版为2024超级对抗赛生死战前一夜改的，未经过实战测试，但感觉更合理
 
-建议在考虑延迟时加上数据的处理、传输、解算延迟
-此版为上位机版本，故应用在电控端时注意修改
