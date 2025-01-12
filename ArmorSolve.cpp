@@ -85,8 +85,7 @@
           double pitch;
           solver_.solve(distance, final_z, pitch);
           gimbal_command_pitch_ = -pitch;
-          gimbal_commandm_yaw_ = atan2(final_y, final_x);
-
+          gimbal_command_yaw_ = atan2(final_y, final_x);
           if (control_status == 1) {
             // Fire control
             ALLOW_ERROR_DISTANCE = (target_->armors_num == 2 || target_->id == "1") ? 0.04 : 0.01;
