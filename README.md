@@ -1,5 +1,14 @@
-# SolveTrajectory
+# rm_vision
 <img src="image/rm_vision.svg" alt="rm_vision" width="200" height="200">
+
+## Overview
+
+rm_vision 项目旨在为 RoboMaster 队伍提供一个规范、易用、鲁棒、高性能的视觉框架方案，为 RM 开源生态的建设添砖加瓦
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![Build Status](https://github.com/chenjunnn/rm_vision/actions/workflows/ci.yml/badge.svg)](https://github.com/chenjunnn/rm_vision/actions/workflows/ci.yml)
+
 
 该项目为 [rm_vision](https://github.com/chenjunnn/rm_vision) 适配的弹道解算模块
 
